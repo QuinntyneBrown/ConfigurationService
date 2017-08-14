@@ -1,0 +1,8 @@
+﻿export const constants = {
+    HUB_URL:"",
+    STORAGE_KEY: "[ConfigurationsService] STORAGE KEY",
+    ACCESS_TOKEN_KEY: " ACCESS TOKEN KEY",
+    LOGIN_CREDENTIALS: " LOGIN CREDENTIALS",
+    TENANT: "TENANT",
+    CORRELATION_IDS_KEY: " CORRELATION IDS KEY"
+};

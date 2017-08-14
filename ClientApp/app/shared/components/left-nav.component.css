@@ -1,0 +1,6 @@
+:host {
+    display:grid;
+    content:contain;
+    grid-auto-rows:136px;
+    grid-row-gap:30px;
+}

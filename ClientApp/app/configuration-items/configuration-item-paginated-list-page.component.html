@@ -1,0 +1,5 @@
+<ce-configuration-item-paginated-list [configurationItems]="configurationItems"                           
+                           (delete)="tryToDelete($event)"
+                           (edit)="tryToEdit($event)"
+                           (filterKeyUp)="handleConfigurationItemsFilterKeyUp($event)">
+</ce-configuration-item-paginated-list>

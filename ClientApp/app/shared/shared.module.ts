@@ -25,6 +25,8 @@ import {TabContentComponent} from "./components/tab-content.component";
 import {TabTitleComponent} from "./components/tab-title.component";
 import {TabsComponent} from "./components/tabs.component";
 import {DynamicFormComponent} from "./components/dynamic-form.component";
+import {FormButtonComponent} from "./components/form-button.component";
+import {FormInputComponent} from "./components/form-input.component";
 
 const providers = [
     EventHub,
@@ -60,7 +62,14 @@ const declarables = [
     PagerComponent,
     TabContentComponent,
     TabTitleComponent,
-    TabsComponent
+    TabsComponent,
+    FormButtonComponent,
+    FormInputComponent
+];
+
+const entryComponents = [
+    FormInputComponent,
+    FormButtonComponent
 ];
 
 @NgModule({
@@ -68,6 +77,7 @@ const declarables = [
     entryComponents: [],
     declarations: [declarables],
     exports:[declarables],
-    providers: providers
+    providers: providers,
+    entryComponents: entryComponents
 })
 export class SharedModule {}

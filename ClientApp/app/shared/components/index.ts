@@ -1,4 +1,6 @@
 export * from "./dynamic-form.component";
+export * from "./form-button.component";
+export * from "./form-input.component";
 export * from "./header.component";
 export * from "./left-nav.component";
 export * from "./pager.component";
